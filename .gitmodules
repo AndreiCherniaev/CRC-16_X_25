@@ -1,0 +1,4 @@
+[submodule "crc"]
+	path = crc
+	url = https://github.com/boostorg/crc
+	branch = master

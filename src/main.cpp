@@ -8,5 +8,5 @@ int main(int argc, char *argv[]){
     crc_16_X25 crc{};
     crc.process_block(arr, &(arr[sizeof(arr)-1]));
 
-    printf("crc 0x%04lX", crc.checksum());
+    printf("0x%04lX", crc.checksum());
 }
